@@ -157,6 +157,7 @@ class MiniRpcProvider implements AsyncSendable {
   }
 }
 
+
 export class NetworkConnector extends AbstractConnector {
   private readonly providers: { [chainId: number]: MiniRpcProvider }
   private currentChainId: number
@@ -170,6 +171,11 @@ export class NetworkConnector extends AbstractConnector {
       accumulator[Number(chainId)] = new MiniRpcProvider(this, Number(chainId), urls[Number(chainId)])
       return accumulator
     }, {})
+    
+    console.log("Using Object.entries and a .forEach loop to console log key and value pairs:")
+    Object.entries(this.providers).forEach(keyValuePair => { console.log("  ", ...keyValuePair) })
+    console.dir('PROVIDERSSSSSSSSSSSSSSSSS ' + this.providers)
+
   }
 
   public get provider(): MiniRpcProvider {

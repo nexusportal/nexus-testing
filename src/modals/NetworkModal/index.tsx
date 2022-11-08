@@ -197,14 +197,14 @@ export const SUPPORTED_NETWORKS: {
     blockExplorerUrls: ['https://explorer.palm.io'],
   },
   [ChainId.SGB]: {
-    chainId: '0x13',
+    chainId: '0x15F901',
     chainName: 'Songbird',
     nativeCurrency: {
       name: 'Songbird',
       symbol: 'SGB',
       decimals: 18,
     },
-    rpcUrls: ['https://rpc.sgbftso.com/http'],
+    rpcUrls: ['https://rpc-evm-sidechain.xrpl.org'],
     blockExplorerUrls: ['https://songbird-explorer.flare.network'],
   },
 }

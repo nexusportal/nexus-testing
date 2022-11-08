@@ -3879,7 +3879,7 @@
       "address": "0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff",
       "symbol": "ORACLE",
       "decimals": 18,
-      "chainId": 19,
+      "chainId": 1440001,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
@@ -3903,7 +3903,7 @@
       "address": "0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED",
       "symbol": "WSGB",
       "decimals": 18,
-      "chainId": 19,
+      "chainId": 1440001,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
@@ -3911,7 +3911,7 @@
       "address": "0x5795377c85e0fdf6370fae1b74fe03b930c4a892",
       "symbol": "xORACLE",
       "decimals": 18,
-      "chainId": 19,
+      "chainId": 1440001,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
