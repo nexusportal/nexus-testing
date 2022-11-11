@@ -22,12 +22,12 @@ function Web3Network(): JSX.Element | null {
       <div className="grid items-center grid-flow-col  justify-center bg-dark-1000 h-[36px] w-[36px] text-sm rounded pointer-events-auto auto-cols-max text-secondary">
         {/*@ts-ignore TYPE NEEDS FIXING*/}
 
-        {chainId === ChainId.SGB ? (
+        {chainId === ChainId.XRPL ? (
           <img src={SGB.src} className="rounded-md" width="22px" height="22px" />
         ) : (
           <Image
             // @ts-ignore TYPE NEEDS FIXING
-            src={NETWORK_ICON[key]}
+            src={NETWORK_ICON[chainId]}
             alt="Switch Network"
             className="rounded-md"
             width="22px"

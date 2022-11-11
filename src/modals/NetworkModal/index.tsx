@@ -196,16 +196,16 @@ export const SUPPORTED_NETWORKS: {
     rpcUrls: ['https://palm-mainnet.infura.io/v3/da5fbfafcca14b109e2665290681e267'],
     blockExplorerUrls: ['https://explorer.palm.io'],
   },
-  [ChainId.SGB]: {
+  [ChainId.XRPL]: {
     chainId: '0x15F901',
-    chainName: 'Songbird',
+    chainName: 'XRPL Dev',
     nativeCurrency: {
-      name: 'Songbird',
-      symbol: 'SGB',
+      name: 'XRP',
+      symbol: 'XRP',
       decimals: 18,
     },
     rpcUrls: ['https://rpc-evm-sidechain.xrpl.org'],
-    blockExplorerUrls: ['https://songbird-explorer.flare.network'],
+    blockExplorerUrls: ['https://evm-sidechain.xrpl.org'],
   },
 }
 
@@ -238,7 +238,7 @@ const NetworkModal: FC = () => {
             // ChainId.OKEX,
             // ChainId.HECO,
             // ChainId.PALM,
-            ChainId.SGB,
+            ChainId.XRPL,
           ].map((key: ChainId, i: number) => {
             if (chainId === key) {
               return (
@@ -246,7 +246,7 @@ const NetworkModal: FC = () => {
                   key={i}
                   className="bg-[rgba(0,0,0,0.2)] focus:outline-none flex items-center gap-4 w-full px-4 py-3 rounded border border-purple cursor-default"
                 >
-                  {key === ChainId.SGB ? (
+                  {key === ChainId.XRPL ? (
                     <img src={SGB.src} className="rounded-md" width="32px" height="32px" />
                   ) : (
                     <Image
@@ -294,7 +294,7 @@ const NetworkModal: FC = () => {
                 )}
               >
                 {/*@ts-ignore TYPE NEEDS FIXING*/}
-                {key === ChainId.SGB ? (
+                {key === ChainId.XRPL ? (
                   <img src={SGB.src} className="rounded-md" width="32px" height="32px" />
                 ) : (
                   <Image

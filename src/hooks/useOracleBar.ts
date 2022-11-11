@@ -11,7 +11,7 @@ import { useSushiBarContract } from './useContract'
 export function useOracleBar() {
   const { account, chainId } = useActiveWeb3React()
 
-  const oracleTokenContract = useTokenContract(SUSHI_ADDRESS[ChainId.SGB])
+  const oracleTokenContract = useTokenContract(SUSHI_ADDRESS[ChainId.XRPL])
 
   const result1 = useSingleCallResult(oracleTokenContract, 'balanceOf', [XORACLE.address])?.result
 

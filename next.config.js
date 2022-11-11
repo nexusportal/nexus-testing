@@ -3,7 +3,7 @@ const runtimeCaching = require('next-pwa/cache')
 const linguiConfig = require('./lingui.config.js')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-const { ChainId } = require('@sushiswap/core-sdk')
+// const { ChainId } = require('@sushiswap/core-sdk')
 
 const { locales, sourceLocale } = linguiConfig
 const { screens } = defaultTheme
@@ -129,20 +129,20 @@ const nextConfig = {
     locales,
     defaultLocale: sourceLocale,
   },
-  network: {
-    chainIds: [ChainId.SGB, ChainId.ARBITRUM],
-    defaultChainId: ChainId.SGB,
-    domains: [
-      // {
-      //   domain: 'sushi.com',
-      //   defaultChainId: ChainId.ETHEREUM,
-      // },
-      // {
-      //   domain: 'arbitrum.sushi.com',
-      //   defaultChainId: ChainId.ARBITRUM,
-      // },
-    ],
-  },
+  // network: {
+  //   chainIds: [ChainId.XRPL, ChainId.ARBITRUM],
+  //   defaultChainId: ChainId.XRPL,
+  //   domains: [
+  //     // {
+  //     //   domain: 'sushi.com',
+  //     //   defaultChainId: ChainId.ETHEREUM,
+  //     // },
+  //     // {
+  //     //   domain: 'arbitrum.sushi.com',
+  //     //   defaultChainId: ChainId.ARBITRUM,
+  //     // },
+  //   ],
+  // },
   publicRuntimeConfig: {
     breakpoints: screens,
   },

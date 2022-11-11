@@ -362,7 +362,7 @@ export default function useFarmRewards() {
         if (farm.pair === '0x5795377c85e0fdf6370fae1b74fe03b930c4a892') {
           return XORACLE
         } else {
-          const token = new Token(ChainId.SGB, getAddress(farm.pair), 18, 'OLP')
+          const token = new Token(ChainId.XRPL, getAddress(farm.pair), 18, 'OLP')
           return token
         }
       }),
@@ -371,7 +371,7 @@ export default function useFarmRewards() {
 
   const farmAddresses = useMemo(() => farms.map((farm) => farm.pair), [farms])
 
-  const stakedBalaces = useTokenBalances(MASTERCHEF_ADDRESS[ChainId.SGB], liquidityTokens)
+  const stakedBalaces = useTokenBalances(MASTERCHEF_ADDRESS[ChainId.XRPL], liquidityTokens)
 
   // const swapPairs = useSushiPairs({
   //   chainId,
@@ -992,7 +992,7 @@ export default function useFarmRewards() {
     pool.owner = pool?.owner || pool?.masterChef || pool?.miniChef
     pool.balance = pool?.balance || pool?.slpBalance
 
-    const liquidityToken = new Token(ChainId.SGB, getAddress(pool.pair), 18, 'OLP')
+    const liquidityToken = new Token(ChainId.XRPL, getAddress(pool.pair), 18, 'OLP')
 
     const stakedAmount = useUserInfo(pool, liquidityToken)
 
@@ -1033,7 +1033,7 @@ export default function useFarmRewards() {
       //   rewardPrice: sushiPrice,
       // }
 
-      const oracleTOken = new Token(ChainId.SGB, SUSHI_ADDRESS[ChainId.SGB], 18, 'ORACEL', 'OracleSwap.io')
+      const oracleTOken = new Token(ChainId.XRPL, SUSHI_ADDRESS[ChainId.XRPL], 18, 'ORACEL', 'OracleSwap.io')
 
       const defaultReward = {
         token: 'PRO',

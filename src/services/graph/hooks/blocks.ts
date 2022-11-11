@@ -107,7 +107,7 @@ export function useMassBlocks({ timestamps, swrConfig = undefined }: useMassBloc
 }
 
 export function useAverageBlockTime({ chainId = ChainId.ETHEREUM, swrConfig = undefined }) {
-  if (chainId === ChainId.SGB) {
+  if (chainId === ChainId.XRPL) {
     return 1.2
   }
 

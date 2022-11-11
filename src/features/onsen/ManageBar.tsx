@@ -29,7 +29,7 @@ import useMasterChef from './useMasterChef'
 const APPROVAL_ADDRESSES = {
   [Chef.MASTERCHEF]: {
     [ChainId.ETHEREUM]: MASTERCHEF_ADDRESS[ChainId.ETHEREUM],
-    [ChainId.SGB]: MASTERCHEF_ADDRESS[ChainId.SGB],
+    [ChainId.XRPL]: MASTERCHEF_ADDRESS[ChainId.XRPL],
   },
   [Chef.MASTERCHEF_V2]: { [ChainId.ETHEREUM]: MASTERCHEF_V2_ADDRESS[ChainId.ETHEREUM] },
   [Chef.MINICHEF]: {

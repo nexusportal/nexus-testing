@@ -20,7 +20,7 @@ export const GRAPH_HOST = {
   [ChainId.TELOS]: THE_GRAPH,
   [ChainId.KOVAN]: THE_GRAPH,
   [ChainId.FUSE]: THE_GRAPH,
-  [ChainId.SGB]: THE_GRAPH,
+  [ChainId.XRPL]: THE_GRAPH,
 }
 
 export const TRIDENT = {

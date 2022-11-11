@@ -10,14 +10,14 @@ const DEFAULT_NETWORK = {
   [ChainId.ETHEREUM]: 'ethereum',
   [ChainId.BSC]: 'bsc',
   [ChainId.MATIC]: 'matic',
-  [ChainId.SGB]: 'songbird',
+  [ChainId.XRPL]: 'songbird',
 }
 
 const DEFAULT_CRYPTO_CURRENCY = {
   [ChainId.ETHEREUM]: 'ETH',
   [ChainId.BSC]: 'BNB',
   [ChainId.MATIC]: 'MATIC',
-  [ChainId.SGB]: 'SGB',
+  [ChainId.XRPL]: 'SGB',
 }
 
 export default function Buy() {

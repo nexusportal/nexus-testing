@@ -71,7 +71,7 @@ const WRAPPED_NATIVE_ONLY: ChainTokenList = {
   [ChainId.PALM]: [WNATIVE[ChainId.PALM]],
   [ChainId.FUSE]: [WNATIVE[ChainId.FUSE]],
   [ChainId.TELOS]: [WNATIVE[ChainId.TELOS]],
-  [ChainId.SGB]: [WNATIVE[ChainId.SGB]],
+  [ChainId.XRPL]: [WNATIVE[ChainId.XRPL]],
 }
 
 // used to construct intermediary pairs for trading
@@ -194,7 +194,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.PALM]: [...WRAPPED_NATIVE_ONLY[ChainId.PALM], PALM.WETH, PALM.DAI],
   [ChainId.FUSE]: [...WRAPPED_NATIVE_ONLY[ChainId.FUSE], FUSE.USDC, FUSE.USDT, FUSE.WBTC, FUSE.WETH, FUSE.DAI],
   [ChainId.TELOS]: [...WRAPPED_NATIVE_ONLY[ChainId.TELOS], TELOS.USDC, TELOS.USDT, TELOS.WETH, TELOS.WBTC],
-  [ChainId.SGB]: [...WRAPPED_NATIVE_ONLY[ChainId.SGB]],
+  [ChainId.XRPL]: [...WRAPPED_NATIVE_ONLY[ChainId.XRPL]],
 }
 
 export const ADDITIONAL_BASES: {
@@ -518,9 +518,9 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     TELOS.USDT,
   ],
-  [ChainId.SGB]: [
+  [ChainId.XRPL]: [
     // @ts-ignore TYPE NEEDS FIXING
-    ...WRAPPED_NATIVE_ONLY[ChainId.SGB],
+    ...WRAPPED_NATIVE_ONLY[ChainId.XRPL],
   ],
 }
 
@@ -627,7 +627,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.PALM]: [...WRAPPED_NATIVE_ONLY[ChainId.PALM], PALM.WETH, PALM.DAI],
   [ChainId.FUSE]: [...WRAPPED_NATIVE_ONLY[ChainId.FUSE], FUSE.USDC, FUSE.USDT, FUSE.WBTC, FUSE.WETH, FUSE.DAI],
   [ChainId.TELOS]: [...WRAPPED_NATIVE_ONLY[ChainId.TELOS], TELOS.USDC, TELOS.USDT, TELOS.WETH, TELOS.WBTC],
-  [ChainId.SGB]: [...WRAPPED_NATIVE_ONLY[ChainId.SGB]],
+  [ChainId.XRPL]: [...WRAPPED_NATIVE_ONLY[ChainId.XRPL]],
 }
 
 export const PINNED_PAIRS: {
