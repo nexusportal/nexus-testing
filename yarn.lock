@@ -2839,7 +2839,7 @@
 
 "@sushiswap/core-sdk@XDCNexus/nexus-core-sdk":
   version "1.0.0-canary.31"
-  resolved "https://codeload.github.com/XDCNexus/nexus-core-sdk/tar.gz/657b38f07ae49cb7d34640d974c2518849aa2098"
+  resolved "https://codeload.github.com/XDCNexus/nexus-core-sdk/tar.gz/a61ddd3efe58255a3fa7caf79b15ce6d666e7aeb"
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
