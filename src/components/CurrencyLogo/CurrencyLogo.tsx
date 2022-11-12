@@ -135,7 +135,6 @@ const LOGO: Record<ChainId, string> = {
   [ChainId.MOONRIVER]: MovrLogo,
   [ChainId.FUSE]: FuseLogo,
   [ChainId.TELOS]: TelosLogo,
-  [ChainId.HARDHAT]: EthereumLogo,
   [ChainId.XRPL]: SongbirdLogo,
 }
 
