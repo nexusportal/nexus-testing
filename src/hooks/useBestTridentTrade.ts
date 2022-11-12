@@ -137,6 +137,7 @@ export function useBestTridentTrade(
           currencyIn.wrapped,
           currencyOut.wrapped,
           BigNumber.from(amountSpecified.quotient.toString()),
+          // @ts-ignore
           legacyPools,
           WNATIVE[amountSpecified.currency.chainId],
           gasPrice
@@ -157,6 +158,7 @@ export function useBestTridentTrade(
             setRoutingInfo({ chainId, allowedPools: legacyPools, route: legacyRoute, mode: 'single' })
             return {
               trade: LegacyTrade.exactIn(
+                // @ts-ignore
                 convertTinesSingleRouteToLegacyRoute(legacyRoute, legacyPools, currencyIn, currencyOut),
                 amountSpecified
               ),
@@ -178,6 +180,7 @@ export function useBestTridentTrade(
           currencyIn.wrapped,
           currencyOut.wrapped,
           BigNumber.from(amountSpecified.quotient.toString()),
+          // @ts-ignore
           legacyPools,
           WNATIVE[amountSpecified.currency.chainId],
           gasPrice
@@ -198,6 +201,7 @@ export function useBestTridentTrade(
             setRoutingInfo({ chainId, allowedPools: legacyPools, route: legacyRoute, mode: 'single' })
             return {
               trade: LegacyTrade.exactOut(
+                // @ts-ignore
                 convertTinesSingleRouteToLegacyRoute(legacyRoute, legacyPools, currencyIn, currencyOut),
                 amountSpecified
               ),

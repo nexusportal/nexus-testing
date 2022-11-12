@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import ExclamationIcon from '@heroicons/react/outline/ExclamationIcon'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
@@ -6,6 +7,8 @@ import Button from 'app/components/Button'
 import Container from 'app/components/Container'
 import Dots from 'app/components/Dots'
 import Input from 'app/components/Input'
+// import xORACLEFImage from '../../../public/xORACLEF.png'
+import QuestionHelper from 'app/components/QuestionHelper'
 import { ORACLE, XORACLE } from 'app/config/tokens'
 import { Feature } from 'app/enums'
 import { classNames } from 'app/functions'
@@ -13,6 +16,10 @@ import { aprToApy } from 'app/functions/convert/apyApr'
 import { tryParseAmount } from 'app/functions/parse'
 import { ApprovalState, useApproveCallback } from 'app/hooks/useApproveCallback'
 import { useOracleBar } from 'app/hooks/useOracleBar'
+import useOracleDistributor, {
+  useOracleDistributorCovertAmount,
+  useOracleDistributorEnableCheck,
+} from 'app/hooks/useOracleDistributor'
 import useSushiBar from 'app/hooks/useSushiBar'
 import TransactionFailedModal from 'app/modals/TransactionFailedModal'
 // import { useFactory, useOneDayBlock } from 'app/services/graph/hooks'
@@ -23,16 +30,10 @@ import { useTokenBalance } from 'app/state/wallet/hooks'
 import Head from 'next/head'
 // import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import NetworkGuard from '../../guards/Network'
 
-import ORACLEImage from '../../../public/ORACLEGold.png'
 import xORACLEImage from '../../../public/ORACLE_SilverLogo.png'
-// import xORACLEFImage from '../../../public/xORACLEF.png'
-import QuestionHelper from 'app/components/QuestionHelper'
-import useOracleDistributor, {
-  useOracleDistributorCovertAmount,
-  useOracleDistributorEnableCheck,
-} from 'app/hooks/useOracleDistributor'
+import ORACLEImage from '../../../public/ORACLEGold.png'
+import NetworkGuard from '../../guards/Network'
 
 const INPUT_CHAR_LIMIT = 18
 
