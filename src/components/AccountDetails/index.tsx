@@ -12,13 +12,12 @@ import { clearAllTransactions } from 'app/state/transactions/actions'
 import React, { FC, useCallback, useMemo } from 'react'
 import { ExternalLink as LinkIcon } from 'react-feather'
 
+import PROFILE from '../../../public/profile_icon.webp'
 import Button from '../Button'
 import ExternalLink from '../ExternalLink'
 import Typography from '../Typography'
 import Copy from './Copy'
 import Transaction from './Transaction'
-
-import PROFILE from '../../../public/profile_icon.webp'
 
 interface AccountDetailsProps {
   toggleWalletModal: () => void

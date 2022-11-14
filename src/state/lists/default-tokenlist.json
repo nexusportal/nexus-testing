@@ -3899,9 +3899,9 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
-      "name": "Wrapped Songbird",
+      "name": "Wrapped Ripple",
       "address": "0x201D19B6E57C018a863C4878284976e1AFA14335",
-      "symbol": "WSGB",
+      "symbol": "WXRP",
       "decimals": 18,
       "chainId": 1440001,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"

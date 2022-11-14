@@ -21,7 +21,7 @@ const Palm = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/p
 const Moonriver = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/moonriver.jpg'
 const Fuse = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/fuse.jpg'
 const Telos = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/telos.jpg'
-const Songbird = 'http://http://18.205.6.126/SGB.png'
+const XRPL = 'https://s2.coinmarketcap.com/static/img/coins/64x64/52.png'
 
 export const NETWORK_ICON = {
   [ChainId.ETHEREUM]: Mainnet,
@@ -52,7 +52,7 @@ export const NETWORK_ICON = {
   [ChainId.MOONRIVER]: Moonriver,
   [ChainId.FUSE]: Fuse,
   [ChainId.TELOS]: Telos,
-  [ChainId.XRPL]: Songbird,
+  [ChainId.XRPL]: XRPL,
 }
 
 export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
@@ -84,5 +84,5 @@ export const NETWORK_LABEL: { [chainId in ChainId]?: string } = {
   [ChainId.MOONRIVER]: 'Moonriver',
   [ChainId.FUSE]: 'Fuse',
   [ChainId.TELOS]: 'Telos EVM',
-  [ChainId.XRPL]: 'Songbird',
+  [ChainId.XRPL]: 'XRP DEV',
 }

@@ -5,7 +5,7 @@ import { useActiveWeb3React } from 'app/services/web3'
 import { useNetworkModalToggle } from 'app/state/application/hooks'
 import Image from 'next/image'
 import React from 'react'
-import SGB from '../../../public/SGB.png'
+import XRP from '../../../public/XRP.png'
 
 function Web3Network(): JSX.Element | null {
   const { chainId } = useActiveWeb3React()
@@ -23,7 +23,7 @@ function Web3Network(): JSX.Element | null {
         {/*@ts-ignore TYPE NEEDS FIXING*/}
 
         {chainId === ChainId.XRPL ? (
-          <img src={SGB.src} className="rounded-md" width="22px" height="22px" />
+          <img src={XRP.src} className="rounded-md" width="22px" height="22px" />
         ) : (
           <Image
             // @ts-ignore TYPE NEEDS FIXING

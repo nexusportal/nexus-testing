@@ -26,6 +26,7 @@ import TRSH from '../../../public/TRSH.png'
 import WSGB from '../../../public/WSGB.png'
 import XFIN from '../../../public/XFIN.png'
 import xORACLE from '../../../public/xORACLE.png'
+import XRP from '../../../public/XRP.png'
 // import Image from '../../components/Image'
 import Logo, { UNKNOWN_ICON } from '../Logo'
 
@@ -105,6 +106,7 @@ const MovrLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/m
 const FuseLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/fuse.jpg'
 const TelosLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/telos.jpg'
 const SongbirdLogo = 'https://s2.coinmarketcap.com/static/img/coins/64x64/12186.png'
+const XRPLogo = 'https://s2.coinmarketcap.com/static/img/coins/64x64/52.png'
 
 const LOGO: Record<ChainId, string> = {
   [ChainId.ETHEREUM]: EthereumLogo,
@@ -136,7 +138,7 @@ const LOGO: Record<ChainId, string> = {
   [ChainId.MOONRIVER]: MovrLogo,
   [ChainId.FUSE]: FuseLogo,
   [ChainId.TELOS]: TelosLogo,
-  [ChainId.XRPL]: SongbirdLogo,
+  [ChainId.XRPL]: XRPLogo,
 }
 
 export interface CurrencyLogoProps {
@@ -169,11 +171,11 @@ const CurrencyLogo: FunctionComponent<CurrencyLogoProps> = ({ currency, size = '
   }, [currency, uriLocations])
 
   if (currency?.equals(WNATIVE[currency.chainId]) && currency?.chainId === ChainId.XRPL) {
-    return <img src={WSGB.src} width={size} height={size} className={className} />
+    return <img src={XRP.src} width={size} height={size} className={className} />
   }
 
   if (currency?.isNative && currency?.chainId === ChainId.XRPL) {
-    return <img src={SGB.src} width={size} height={size} className={className} />
+    return <img src={XRP.src} width={size} height={size} className={className} />
   }
 
   if (currency?.chainId === ChainId.XRPL) {

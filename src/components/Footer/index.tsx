@@ -15,7 +15,6 @@ import LogoImage from '../../../public/songbird.png'
 import useIsCoinbaseWallet from 'app/hooks/useIsCoinbaseWallet'
 import { useNetworkModalToggle } from 'app/state/application/hooks'
 // import Image from 'next/image'
-// import SGB from '../../../public/SGB.png'
 // import { ChainId } from '@sushiswap/core-sdk'
 // import { NETWORK_ICON } from 'app/config/networks'
 const Footer = () => {

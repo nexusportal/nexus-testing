@@ -19,27 +19,26 @@ export function useV2Pairs(currencies: [Currency | undefined, Currency | undefin
     [currencies]
   )
 
-  const pairAddresses = useMemo(
-    () =>
-      tokens.reduce<(string | undefined)[]>((acc, [tokenA, tokenB]) => {
-        const address =
-          tokenA &&
-          tokenB &&
-          tokenA.chainId === tokenB.chainId &&
-          !tokenA.equals(tokenB) &&
-          FACTORY_ADDRESS[tokenA.chainId]
-            ? computePairAddress({
-                factoryAddress: FACTORY_ADDRESS[tokenA.chainId],
-                tokenA,
-                tokenB,
-              })
-            : undefined
+  const pairAddresses = useMemo(() => {
+    console.log(tokens)
+    return tokens.reduce<(string | undefined)[]>((acc, [tokenA, tokenB]) => {
+      const address =
+        tokenA &&
+        tokenB &&
+        tokenA.chainId === tokenB.chainId &&
+        !tokenA.equals(tokenB) &&
+        FACTORY_ADDRESS[tokenA.chainId]
+          ? computePairAddress({
+              factoryAddress: FACTORY_ADDRESS[tokenA.chainId],
+              tokenA,
+              tokenB,
+            })
+          : undefined
 
-        acc.push(address && !acc.includes(address) ? address : undefined)
-        return acc
-      }, []),
-    [tokens]
-  )
+      acc.push(address && !acc.includes(address) ? address : undefined)
+      return acc
+    }, [])
+  }, [tokens])
 
   const results = useMultipleContractSingleData(pairAddresses, PAIR_INTERFACE, 'getReserves')
 

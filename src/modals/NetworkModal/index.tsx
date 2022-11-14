@@ -11,7 +11,8 @@ import { useModalOpen, useNetworkModalToggle } from 'app/state/application/hooks
 // @ts-ignore TYPE NEEDS FIXING
 import Image from 'next/image'
 import React, { FC } from 'react'
-import SGB from '../../../public/SGB.png'
+
+import XRP from '../../../public/XRP.png'
 
 export const SUPPORTED_NETWORKS: {
   [key: number]: {
@@ -247,7 +248,7 @@ const NetworkModal: FC = () => {
                   className="bg-[rgba(0,0,0,0.2)] focus:outline-none flex items-center gap-4 w-full px-4 py-3 rounded border border-purple cursor-default"
                 >
                   {key === ChainId.XRPL ? (
-                    <img src={SGB.src} className="rounded-md" width="32px" height="32px" />
+                    <img src={XRP.src} className="rounded-md" width="32px" height="32px" />
                   ) : (
                     <Image
                       // @ts-ignore TYPE NEEDS FIXING
@@ -295,7 +296,7 @@ const NetworkModal: FC = () => {
               >
                 {/*@ts-ignore TYPE NEEDS FIXING*/}
                 {key === ChainId.XRPL ? (
-                  <img src={SGB.src} className="rounded-md" width="32px" height="32px" />
+                  <img src={XRP.src} className="rounded-md" width="32px" height="32px" />
                 ) : (
                   <Image
                     // @ts-ignore TYPE NEEDS FIXING
