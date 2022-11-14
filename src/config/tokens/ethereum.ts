@@ -106,16 +106,16 @@ export const XSUSHI = new Token(
   'xSUSHI',
   'SushiBar'
 )
-export const XORACLE = new Token(ChainId.XRPL, '0x5795377c85e0fdf6370fae1b74fe03b930c4a892', 18, 'xORACLE', 'OracleBar')
+export const XORACLE = new Token(ChainId.XRPL, '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9', 18, 'xORACLE', 'OracleBar')
 export const ORACLE = new Token(
   ChainId.XRPL,
-  '0xD7565b16b65376e2Ddb6c71E7971c7185A7Ff3Ff',
+  '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
   18,
   'ORACLE',
   'OracleSwap.io'
 )
 
-export const PROPHET = new Token(ChainId.XRPL, '0xf810576A68C3731875BDe07404BE815b16fC0B4e', 18, 'PRO', 'Prophet')
+export const PROPHET = new Token(ChainId.XRPL, '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E', 18, 'PRO', 'Prophet')
 
 export const LIFT = new Token(ChainId.ETHEREUM, '0xf9209d900f7ad1DC45376a2caA61c78f6dEA53B6', 18, 'LIFT', 'LiftKitchen')
 export const LFBTC = new Token(

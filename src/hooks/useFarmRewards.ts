@@ -91,7 +91,7 @@ export default function useFarmRewards() {
       id: '2',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x1987E504E70b9ACbAa4E042FDDE4ecB6CEaf5b77',
@@ -106,10 +106,10 @@ export default function useFarmRewards() {
       id: '0',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
-      pair: '0x5795377c85e0fdf6370fae1b74fe03b930c4a892',
+      pair: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
       slpBalance: 0,
       userCount: '0',
     },
@@ -121,7 +121,7 @@ export default function useFarmRewards() {
       id: '1',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x728a6a7F7f4eeD1aeBB268e37BD5ca5071818457',
@@ -137,7 +137,7 @@ export default function useFarmRewards() {
       id: '3',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xcAC275AF30B8D66c866F6C714d2119E87BA9c5b1',
@@ -152,7 +152,7 @@ export default function useFarmRewards() {
       id: '4',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x5dc49c1deA70D84408fa86a0Ef97AD21F8B6aA3a',
@@ -167,7 +167,7 @@ export default function useFarmRewards() {
       id: '5',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x6a4489858E7d168B940E03Da8933c377Af8f7863',
@@ -182,7 +182,7 @@ export default function useFarmRewards() {
       id: '6',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x110d911F007f90969131A83c0f74135429a6109a',
@@ -197,7 +197,7 @@ export default function useFarmRewards() {
       id: '7',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x4C71594d879310908A7ABF56689084eE4225b569',
@@ -212,7 +212,7 @@ export default function useFarmRewards() {
       id: '8',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x7Bf38785521b008FcDcB4655CBB55901BE9bD94c',
@@ -227,7 +227,7 @@ export default function useFarmRewards() {
       id: '9',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x97300650d6984259D0F9731173D96207cCBe67Be',
@@ -242,7 +242,7 @@ export default function useFarmRewards() {
       id: '10',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xE54f1aF5Fa8a23cE99a630Db21c351d4b9E56234',
@@ -257,7 +257,7 @@ export default function useFarmRewards() {
       id: '11',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xcD307B9869d870BA67b6403EA234e02dbaC9f97A',
@@ -272,7 +272,7 @@ export default function useFarmRewards() {
       id: '12',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x61db2FCd5e6bB80E33c08E3376F9677a0182E7e9',
@@ -287,7 +287,7 @@ export default function useFarmRewards() {
       id: '13',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xf5Ede1927C339A5D209938f4C04A1D5008D4dfd4',
@@ -302,7 +302,7 @@ export default function useFarmRewards() {
       id: '14',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xcF11e96BFa29332aF5BC3Bfcc1cBccEC94DB2919',
@@ -317,7 +317,7 @@ export default function useFarmRewards() {
       id: '15',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x6eE75C89305b8D5D40361dA0685b2CE786b49B1b',
@@ -332,7 +332,7 @@ export default function useFarmRewards() {
       id: '16',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0x30f1907D4B5D23c1AAC00D803211bC992D35F774',
@@ -347,7 +347,7 @@ export default function useFarmRewards() {
       id: '17',
       lastRewardTime: 12505142,
       owner: {
-        id: '0xA5E4abe4c3693AB0018df7a2b3b35e33E15f3028',
+        id: '0xe462159E624FfcC0f2a0EC8F37402A2CF703Fc83',
         totalAllocPoint: 1000,
       },
       pair: '0xfDb3c94cA8aD50A35516f2A3d13d257A57A57C02',
@@ -359,7 +359,7 @@ export default function useFarmRewards() {
   const liquidityTokens = useMemo(
     () =>
       farms.map((farm) => {
-        if (farm.pair === '0x5795377c85e0fdf6370fae1b74fe03b930c4a892') {
+        if (farm.pair === '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9') {
           return XORACLE
         } else {
           const token = new Token(ChainId.XRPL, getAddress(farm.pair), 18, 'OLP')
@@ -403,7 +403,7 @@ export default function useFarmRewards() {
   const swapPairs = [
     {
       decimals: 18,
-      id: '0x5795377c85e0fdf6370fae1b74fe03b930c4a892',
+      id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
       reserve0: 0.0887405995540289756,
       reserve1: 0.04641,
       reserveETH: 1183.351142427706157233201110976883,
@@ -411,7 +411,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x5795377c85e0fdf6370fae1b74fe03b930c4a892',
+        id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
         name: 'OracleBar',
         symbol: 'xORACLE',
         totalSupply: 1680,
@@ -438,7 +438,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -469,7 +469,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -477,7 +477,7 @@ export default function useFarmRewards() {
       token0Price: 0.749748,
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -500,7 +500,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -508,7 +508,7 @@ export default function useFarmRewards() {
       token0Price: 0.749748,
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xf810576A68C3731875BDe07404BE815b16fC0B4e',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'Prophet',
         symbol: 'PRO',
         totalSupply: 1680,
@@ -530,7 +530,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -538,7 +538,7 @@ export default function useFarmRewards() {
       token0Price: 0.749748,
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xf810576A68C3731875BDe07404BE815b16fC0B4e',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'Prophet',
         symbol: 'PRO',
         totalSupply: 1680,
@@ -561,7 +561,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -569,7 +569,7 @@ export default function useFarmRewards() {
       token0Price: 0.749748,
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x5795377c85e0fdf6370fae1b74fe03b930c4a892',
+        id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
         name: 'OracleFoundry',
         symbol: 'xORACLE',
         totalSupply: 1680,
@@ -592,7 +592,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -622,7 +622,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -652,7 +652,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -682,7 +682,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -712,7 +712,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -742,7 +742,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0xd7565b16b65376e2ddb6c71e7971c7185a7ff3ff',
+        id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
         name: 'OracleSwap.io',
         symbol: 'ORACLE',
         totalSupply: 1680,
@@ -773,7 +773,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -803,7 +803,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -833,7 +833,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -863,7 +863,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -893,7 +893,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
@@ -923,7 +923,7 @@ export default function useFarmRewards() {
       timestamp: 1621898381,
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
-        id: '0x02f0826ef6aD107Cfc861152B32B52fD11BaB9ED',
+        id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
         name: 'Wrapped SGB',
         symbol: 'WSGB',
         totalSupply: 1680,
