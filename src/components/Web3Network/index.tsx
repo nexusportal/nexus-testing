@@ -5,6 +5,7 @@ import { useActiveWeb3React } from 'app/services/web3'
 import { useNetworkModalToggle } from 'app/state/application/hooks'
 import Image from 'next/image'
 import React from 'react'
+
 import XRP from '../../../public/XRP.png'
 
 function Web3Network(): JSX.Element | null {

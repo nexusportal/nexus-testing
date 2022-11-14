@@ -77,6 +77,7 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   // @ts-ignore TYPE NEEDS FIXING
                   address={account}
                   defaultComponent={
+                    // eslint-disable-next-line @next/next/no-img-element
                     <img src={PROFILE.src} width={48} height={48} alt="OracleSwap Chef" />
                     // <Image src="https://app.sushi.com/images/chef.svg" alt="OracleSwap Chef" width={48} height={48} />
                   }
