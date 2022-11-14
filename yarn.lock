@@ -2837,9 +2837,9 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@sushiswap/core-sdk@XDCNexus/nexus-core-sdk#v0.0.1":
+"@sushiswap/core-sdk@XDCNexus/nexus-core-sdk#v0.0.2":
   version "1.0.0-canary.31"
-  resolved "https://codeload.github.com/XDCNexus/nexus-core-sdk/tar.gz/01ea71c4109c20a80d8f99aa4ffab889f3f681b8"
+  resolved "https://codeload.github.com/XDCNexus/nexus-core-sdk/tar.gz/3284f06736c60e4f5e252e2f1a679751c6a28ad3"
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
