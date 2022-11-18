@@ -2,7 +2,7 @@ import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CHAINLINK_ORACLE_ADDRESS, Currency, KASHI_ADDRESS } from '@sushiswap/core-sdk'
+import { CHAINLINK_NEXUS_ADDRESS, Currency, KASHI_ADDRESS } from '@sushiswap/core-sdk'
 import Button from 'app/components/Button'
 import Card from 'app/components/Card'
 import Container from 'app/components/Container'
@@ -139,7 +139,7 @@ export default function Create() {
       }
 
       // @ts-ignore TYPE NEEDS FIXING
-      if (!(chainId in CHAINLINK_ORACLE_ADDRESS)) {
+      if (!(chainId in CHAINLINK_NEXUS_ADDRESS)) {
         console.log('No chainlink oracle address')
         return
       }
@@ -151,7 +151,7 @@ export default function Create() {
       }
 
       // @ts-ignore TYPE NEEDS FIXING
-      const oracleAddress = CHAINLINK_ORACLE_ADDRESS[chainId]
+      const oracleAddress = CHAINLINK_NEXUS_ADDRESS[chainId]
 
       const kashiData = defaultAbiCoder.encode(
         ['address', 'address', 'address', 'bytes'],
@@ -190,14 +190,14 @@ export default function Create() {
   return (
     <CreateLayout>
       <Head>
-        <title>Create Lending Pair | Kashi by OracleSwap</title>
-        <meta key="description" name="description" content="Create Lending Pair on Kashi by OracleSwap" />
+        <title>Create Lending Pair | Kashi by Nexus</title>
+        <meta key="description" name="description" content="Create Lending Pair on Kashi by Nexus" />
         <meta
           key="twitter:description"
           name="twitter:description"
-          content="Create Lending Pair on Kashi by OracleSwap"
+          content="Create Lending Pair on Kashi by Nexus"
         />
-        <meta key="og:description" property="og:description" content="Create Lending Pair on Kashi by OracleSwap" />
+        <meta key="og:description" property="og:description" content="Create Lending Pair on Kashi by Nexus" />
       </Head>
       <Card
         className="h-full bg-dark-900"

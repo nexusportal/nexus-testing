@@ -20,11 +20,11 @@ const Portfolio = () => {
   return (
     <>
       <Head>
-        <title>{i18n._(t`Portfolio`)} | OracleSwap</title>
+        <title>{i18n._(t`Portfolio`)} | Nexus</title>
         <meta
           key="description"
           name="description"
-          content="Get a summary of all of the balances in your portfolio on OracleSwap."
+          content="Get a summary of all of the balances in your portfolio on Nexus."
         />
       </Head>
       <TridentHeader pattern="bg-chevron" className={classNames(showUseDexWarning && 'mt-6')}>

@@ -38,6 +38,8 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import ReactGA from 'react-ga'
 
 import LogoImage from '../../../../public/icons/icon-152x152.png'
+import Widget from '../../../../public/holowidget.gif'
+
 import { fetchAPI } from '../../../lib/api'
 
 export async function getServerSideProps() {
@@ -357,9 +359,9 @@ const Swap = ({ banners }) => {
     <>
       <Head>
         <title>Oracle Swap | DEX</title>
-        <meta key="description" name="description" content="OracleSwap AMM" />
-        <meta key="twitter:description" name="twitter:description" content="OracleSwap AMM" />
-        <meta key="og:description" property="og:description" content="OracleSwap AMM" />
+        <meta key="description" name="description" content="Nexus AMM" />
+        <meta key="twitter:description" name="twitter:description" content="Nexus AMM" />
+        <meta key="og:description" property="og:description" content="Nexus AMM" />
       </Head>
       <ConfirmSwapModal
         isOpen={showConfirm}
@@ -381,10 +383,10 @@ const Swap = ({ banners }) => {
         onConfirm={handleConfirmTokenWarning}
       />
       <div className="flex items-center justify-center">
-        <ExternalLink href="https://www.oracleswap.io">
+        <ExternalLink href="https://www.Nexus.io">
           <div className="flex flex-col items-center mb-4">
             {/* <div className="font-bold">1 SGB = $0.0645</div> */}
-            <img src={LogoImage.src} className={'w-[100px] h-[100px]'} alt="Logo" />
+            <img src={Widget.src} className={'w-[100px] h-[100px]'} alt="Logo" />
           </div>
         </ExternalLink>
       </div>
@@ -553,7 +555,7 @@ const Swap = ({ banners }) => {
         </div>
       </SwapLayoutCard>
 
-      <div
+      {/* <div
         className="mt-3 coinmarketcap-currency-widget"
         data-currencyid="12186"
         data-base="USD"
@@ -564,7 +566,7 @@ const Swap = ({ banners }) => {
         data-volume="false"
         data-statsticker="false"
         data-stats="USD"
-      ></div>
+      ></div> */}
       <Banner banners={banners} />
     </>
   )

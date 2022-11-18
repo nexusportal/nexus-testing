@@ -106,13 +106,13 @@ export const XSUSHI = new Token(
   'xSUSHI',
   'SushiBar'
 )
-export const XORACLE = new Token(ChainId.XRPL, '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9', 18, 'xORACLE', 'OracleBar')
-export const ORACLE = new Token(
+export const XNEXUS = new Token(ChainId.XRPL, '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9', 18, 'xNEXUS', 'OracleBar')
+export const NEXUS = new Token(
   ChainId.XRPL,
   '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
   18,
-  'ORACLE',
-  'OracleSwap.io'
+  'NEXUS',
+  'Nexus.io'
 )
 
 export const PROPHET = new Token(ChainId.XRPL, '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E', 18, 'PRO', 'Prophet')

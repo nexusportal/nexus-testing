@@ -36,7 +36,7 @@ const FarmListItem: FC<FarmListItem> = ({ farm, onClick }) => {
           </Typography>
           {farm?.pair?.type === PairType.SWAP && (
             <Typography variant="xs" className="text-low-emphesis">
-              {i18n._(t`OracleSwap Farm`)}
+              {i18n._(t`Nexus Farm`)}
             </Typography>
           )}
           {farm?.pair?.type === PairType.KASHI && (

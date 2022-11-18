@@ -1,5 +1,5 @@
 import { ChainId, CurrencyAmount, JSBI, SUSHI_ADDRESS, Token } from '@sushiswap/core-sdk'
-import { XORACLE } from 'app/config/tokens'
+import { XNEXUS } from 'app/config/tokens'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useSingleCallResult } from 'app/state/multicall/hooks'
 import { useTransactionAdder } from 'app/state/transactions/hooks'
@@ -13,7 +13,7 @@ export function useOracleBar() {
 
   const oracleTokenContract = useTokenContract(SUSHI_ADDRESS[ChainId.XRPL])
 
-  const result1 = useSingleCallResult(oracleTokenContract, 'balanceOf', [XORACLE.address])?.result
+  const result1 = useSingleCallResult(oracleTokenContract, 'balanceOf', [XNEXUS.address])?.result
 
   const value1 = result1?.[0]
 
@@ -30,7 +30,7 @@ export function useOracleBar() {
   return useMemo(() => {
     if (amount && amount1) {
       const ratio = JSBI.toNumber(amount1) / JSBI.toNumber(amount)
-      const totalSupply = CurrencyAmount.fromRawAmount(XORACLE, amount)
+      const totalSupply = CurrencyAmount.fromRawAmount(XNEXUS, amount)
       return [ratio, totalSupply]
     }
     return [undefined, undefined]

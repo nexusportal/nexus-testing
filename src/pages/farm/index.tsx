@@ -8,7 +8,7 @@ import QuestionHelper from 'app/components/QuestionHelper'
 // import QuestionHelper from 'app/components/QuestionHelper'
 import Search from 'app/components/Search'
 import Typography from 'app/components/Typography'
-import { ORACLE } from 'app/config/tokens'
+import { NEXUS } from 'app/config/tokens'
 import { PROPHET_SACRIFICE_ADDRESS } from 'app/constants'
 import { Chef, PairType } from 'app/features/onsen/enum'
 import FarmList from 'app/features/onsen/FarmList'
@@ -26,8 +26,8 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 
-import LogoImage from '../../../public/ORACLEGold.png'
-import PROLOGO from '../../../public/PRO_Logo3Gold.png'
+import LogoImage from '../../../public/NEXUSGold.png'
+import NEX from '../../../public/NEXUS.png'
 
 const sendTx = async (txFunc: () => Promise<any>): Promise<boolean> => {
   let success = true
@@ -91,9 +91,9 @@ export default function Farm(): JSX.Element {
 
   const { account } = useActiveWeb3React()
 
-  const oracleBalance = useTokenBalance(account ?? undefined, ORACLE)
+  const oracleBalance = useTokenBalance(account ?? undefined, NEXUS)
 
-  const sacrificeOracle = useTokenBalance(PROPHET_SACRIFICE_ADDRESS ?? undefined, ORACLE)
+  const sacrificeOracle = useTokenBalance(PROPHET_SACRIFICE_ADDRESS ?? undefined, NEXUS)
 
   const enabled = sacrificeOracle ? sacrificeOracle.greaterThan(ZERO) : false
 
@@ -126,9 +126,9 @@ export default function Farm(): JSX.Element {
     <>
       <Head>
         <title>Oracle Swap | Farm</title>
-        <meta key="description" name="description" content="OracleSwap AMM" />
-        <meta key="twitter:description" name="twitter:description" content="OracleSwap AMM" />
-        <meta key="og:description" property="og:description" content="OracleSwap AMM" />
+        <meta key="description" name="description" content="Nexus AMM" />
+        <meta key="twitter:description" name="twitter:description" content="Nexus AMM" />
+        <meta key="og:description" property="og:description" content="Nexus AMM" />
       </Head>
       {/* <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
         <div>
@@ -153,7 +153,7 @@ export default function Farm(): JSX.Element {
       </TridentHeader> */}
       <TridentBody>
         <div className={classNames('flex flex-col w-full gap-6', showUseDexWarning && 'mt-5')}>
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <div
               className={classNames('flex flex-col flex-wrap p-4 rounded bg-dark-900', !showUseDexWarning && 'mt-3')}
             >
@@ -169,7 +169,7 @@ export default function Farm(): JSX.Element {
 
                 <QuestionHelper
                   className="!bg-dark-800 !shadow-xl p-2"
-                  text={`The Prophet Sacrifice receives ORACLE from the Oracle Distributor and sacrifices it to buy and burn PRO. Some of the PRO could be distributed to stakers.`}
+                  text={`The Prophet Sacrifice receives NEXUS from the Oracle Distributor and sacrifices it to buy and burn PRO. Some of the PRO could be distributed to stakers.`}
                 />
               </div>
 
@@ -182,7 +182,7 @@ export default function Farm(): JSX.Element {
                 </p>
 
                 <p>
-                  <span>&#128512;</span> ORACLE Available:{' '}
+                  <span>&#128512;</span> NEXUS Available:{' '}
                   <span className={classNames(enabled ? 'text-green' : 'text-red')}>{enabled ? 'Yes' : 'No'}</span>
                 </p>
 
@@ -204,7 +204,7 @@ export default function Farm(): JSX.Element {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <Search search={search} term={term} />

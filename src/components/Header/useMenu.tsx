@@ -106,8 +106,8 @@ const useMenu: UseMenu = () => {
 
     let earnMenu: MenuItem = {
       key: 'earn',
-      title: i18n._(t`💲Earn`),
-      link: 'https://earn.oracleswap.io/',
+      title: i18n._(t`Learn`),
+      link: 'https://earn.Nexus.io/',
       external: true,
       icon: <CurrencyDollarIcon width={20} />,
     }
@@ -115,7 +115,7 @@ const useMenu: UseMenu = () => {
     let nftMenu: MenuItem = {
       key: 'nft',
       title: i18n._(t`NFT`),
-      link: 'https://comingsoon.oracleswap.io/',
+      link: 'https://comingsoon.Nexus.io/',
       external: true,
       icon: <CollectionIcon width={20} />,
     }
@@ -126,7 +126,7 @@ const useMenu: UseMenu = () => {
     //   mainItems.push(stakeMenu)
     //   // exploreMenu.push({
     //   //   key: 'stake',
-    //   //   title: i18n._(t`xORACLE`),
+    //   //   title: i18n._(t`xNEXUS`),
     //   //   link: '/stake',
     //   // })
     // }

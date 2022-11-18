@@ -1,6 +1,6 @@
 import { getAddress } from '@ethersproject/address'
 import { ChainId, Currency, JSBI, NATIVE, SUSHI, SUSHI_ADDRESS, Token } from '@sushiswap/core-sdk'
-import { ARBITRUM_TOKENS, MATIC_TOKENS, XDAI_TOKENS, XORACLE, PROPHET } from 'app/config/tokens'
+import { ARBITRUM_TOKENS, MATIC_TOKENS, XDAI_TOKENS, XNEXUS, PROPHET } from 'app/config/tokens'
 import { Chef, PairType } from 'app/features/onsen/enum'
 import { usePositions, useProphetPoolInfos, useUserInfo } from 'app/features/onsen/hooks'
 import { aprToApy } from 'app/functions/convert'
@@ -360,7 +360,7 @@ export default function useFarmRewards() {
     () =>
       farms.map((farm) => {
         if (farm.pair === '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9') {
-          return XORACLE
+          return XNEXUS
         } else {
           const token = new Token(ChainId.XRPL, getAddress(farm.pair), 18, 'OLP')
           return token
@@ -413,7 +413,7 @@ export default function useFarmRewards() {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
         name: 'OracleBar',
-        symbol: 'xORACLE',
+        symbol: 'xNEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -424,7 +424,7 @@ export default function useFarmRewards() {
       txCount: 81365,
       type: 2,
       name: 'OracleBar',
-      symbol: 'xORACLE',
+      symbol: 'xNEXUS',
       untrackedVolumeUSD: 46853.79482616671033425777223395,
       volumeUSD: 4684.23711596607606598865310647,
     },
@@ -478,8 +478,8 @@ export default function useFarmRewards() {
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token1Price: 0.014,
@@ -531,8 +531,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -571,7 +571,7 @@ export default function useFarmRewards() {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
         name: 'OracleFoundry',
-        symbol: 'xORACLE',
+        symbol: 'xNEXUS',
         totalSupply: 1680,
       },
       token1Price: 0.014,
@@ -593,8 +593,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -623,8 +623,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -653,8 +653,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -683,8 +683,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -713,8 +713,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -743,8 +743,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x44aA8b2f3d15200Cbc05bA9B6d9c20423Ba6810E',
-        name: 'OracleSwap.io',
-        symbol: 'ORACLE',
+        name: 'Nexus.io',
+        symbol: 'NEXUS',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -1033,11 +1033,11 @@ export default function useFarmRewards() {
       //   rewardPrice: sushiPrice,
       // }
 
-      const oracleTOken = new Token(ChainId.XRPL, SUSHI_ADDRESS[ChainId.XRPL], 18, 'ORACEL', 'OracleSwap.io')
+      const oracleTOken = new Token(ChainId.XRPL, SUSHI_ADDRESS[ChainId.XRPL], 18, 'ORACEL', 'Nexus.io')
 
       const defaultReward = {
         token: 'PRO',
-        icon: '/PRO.png',
+        icon: '/NEXUS.png',
         rewardPerBlock,
         currency: PROPHET,
         rewardPerDay: rewardPerBlock * blocksPerDay,

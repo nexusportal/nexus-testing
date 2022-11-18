@@ -134,8 +134,8 @@ function Web3StatusInner() {
               size={20}
               address={account}
               defaultComponent={
-                <img src={PROFILE.src} width={20} height={20} alt="OracleSwap Chef" />
-                // <Image src="https://app.sushi.com/images/chef.svg" alt="OracleSwap Chef" width={20} height={20} />
+                <img src={PROFILE.src} width={20} height={20} alt="Nexus Chef" />
+                // <Image src="https://app.sushi.com/images/chef.svg" alt="Nexus Chef" width={20} height={20} />
               }
               style={{ borderRadius: 5 }}
               provider={library}

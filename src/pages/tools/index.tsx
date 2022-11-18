@@ -30,10 +30,10 @@ export default function Tools() {
   return (
     <Container id="tools-page" className="py-4 space-y-4 md:py-8 lg:py-12" maxWidth="xl">
       <Head>
-        <title>Tools | OracleSwap</title>
-        <meta key="description" name="description" content="OracleSwap tools..." />
-        <meta key="twitter:description" name="twitter:description" content="OracleSwap tools..." />
-        <meta key="og:description" property="og:description" content="OracleSwap tools..." />
+        <title>Tools | Nexus</title>
+        <meta key="description" name="description" content="Nexus tools..." />
+        <meta key="twitter:description" name="twitter:description" content="Nexus tools..." />
+        <meta key="og:description" property="og:description" content="Nexus tools..." />
       </Head>
       <Typography variant="h1" component="h1">
         Tools

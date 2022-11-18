@@ -78,8 +78,8 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   address={account}
                   defaultComponent={
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={PROFILE.src} width={48} height={48} alt="OracleSwap Chef" />
-                    // <Image src="https://app.sushi.com/images/chef.svg" alt="OracleSwap Chef" width={48} height={48} />
+                    <img src={PROFILE.src} width={48} height={48} alt="Nexus Chef" />
+                    // <Image src="https://app.sushi.com/images/chef.svg" alt="Nexus Chef" width={48} height={48} />
                   }
                   provider={library}
                 />

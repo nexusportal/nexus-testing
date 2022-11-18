@@ -1,5 +1,5 @@
 import { CurrencyAmount, JSBI, SUSHI, Token, ChainId } from '@sushiswap/core-sdk'
-import { ORACLE } from 'app/config/tokens'
+import { NEXUS } from 'app/config/tokens'
 import { useSingleCallResult } from 'app/state/multicall/hooks'
 import { useTransactionAdder } from 'app/state/transactions/hooks'
 import { useCallback, useMemo } from 'react'
@@ -67,11 +67,11 @@ export function useOracleDistributorCovertAmount() {
 
   return useMemo(() => {
     if (amount && amount1 && amount2 && amount3 && amount4) {
-      const foundry = CurrencyAmount.fromRawAmount(ORACLE, amount)
-      const treasury = CurrencyAmount.fromRawAmount(ORACLE, amount1)
-      const burned = CurrencyAmount.fromRawAmount(ORACLE, amount2)
-      const total = CurrencyAmount.fromRawAmount(ORACLE, amount3)
-      const prophet = CurrencyAmount.fromRawAmount(ORACLE, amount4)
+      const foundry = CurrencyAmount.fromRawAmount(NEXUS, amount)
+      const treasury = CurrencyAmount.fromRawAmount(NEXUS, amount1)
+      const burned = CurrencyAmount.fromRawAmount(NEXUS, amount2)
+      const total = CurrencyAmount.fromRawAmount(NEXUS, amount3)
+      const prophet = CurrencyAmount.fromRawAmount(NEXUS, amount4)
       return [foundry, treasury, burned, prophet, total]
     }
     return [undefined, undefined, undefined, undefined, undefined]

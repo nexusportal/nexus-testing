@@ -8,10 +8,10 @@ export default function Status({ initialData }) {
   return (
     <Container id="status-page" className="py-4 md:py-8 lg:py-12" maxWidth="full">
       <Head>
-        <title>Status | OracleSwap</title>
-        <meta key="description" name="description" content="OracleSwap Status..." />
-        <meta key="twitter:description" name="twitter:description" content="OracleSwap Status..." />
-        <meta key="og:description" property="og:description" content="OracleSwap Status..." />
+        <title>Status | Nexus</title>
+        <meta key="description" name="description" content="Nexus Status..." />
+        <meta key="twitter:description" name="twitter:description" content="Nexus Status..." />
+        <meta key="og:description" property="og:description" content="Nexus Status..." />
       </Head>
       {/* <div className="w-full max-w-6xl mx-auto">
                 <Typography component="h1" variant="h1" className="w-full mb-4">

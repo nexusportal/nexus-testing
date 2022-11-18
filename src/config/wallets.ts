@@ -48,8 +48,8 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   },
   Bif: {
     connector: injected,
-    name: 'Bifrost',
-    iconName: 'bifrost.png',
+    name: 'XDCPay',
+    iconName: 'xdcpay.png',
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#E8831D',
@@ -58,7 +58,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     name: 'MetaMask',
     iconName: 'metamask.png',
     description: 'Open in MetaMask app.',
-    href: 'https://metamask.app.link/dapp/dex.oracleswap.io',
+    href: 'https://metamask.app.link/dapp/dex.Nexus.io',
     color: '#E8831D',
     mobile: true,
     mobileOnly: true,
@@ -101,7 +101,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   //     return new LatticeConnector({
   //       chainId: 1,
   //       url: RPC[ChainId.ETHEREUM],
-  //       appName: 'OracleSwap',
+  //       appName: 'Nexus',
   //     })
   //   },
   //   name: 'Lattice',
@@ -116,7 +116,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   //     const WalletLinkConnector = (await import('@web3-react/walletlink-connector')).WalletLinkConnector
   //     return new WalletLinkConnector({
   //       url: RPC[ChainId.ETHEREUM],
-  //       appName: 'OracleSwap',
+  //       appName: 'Nexus',
   //       appLogoUrl: 'https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png',
   //       darkMode: true,
   //     })

@@ -3,7 +3,7 @@ import { classNames } from 'app/functions'
 import Image from 'next/image'
 import React from 'react'
 
-import bifrostIamge from '../../../public/bifrost.png'
+import xdcpayIamge from '../../../public/xdcpay.png'
 
 export default function Option({
   id,
@@ -43,8 +43,8 @@ export default function Option({
         </div>
         {subheader && <Typography variant="xs">{subheader}</Typography>}
       </div>
-      {header === 'Bifrost' ? (
-        <img src={bifrostIamge.src} alt="Bifrost" className={'w-[32px] h-[32px]'} width="100%" height="100%" />
+      {header === 'XDCPay' ? (
+        <img src={xdcpayIamge.src} alt="XDCPay" className={'w-[32px] h-[32px]'} width="100%" height="100%" />
       ) : (
         <Image src={icon} alt={'Icon'} width="32px" height="32px" />
       )}

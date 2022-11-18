@@ -19,7 +19,7 @@ const ConfirmMigration = () => {
   return (
     <>
       <Head>
-        <title>{i18n._(t`Confirm Migration | OracleSwap`)}</title>
+        <title>{i18n._(t`Confirm Migration | Nexus`)}</title>
       </Head>
       <DebugObserver />
       <TridentHeader pattern="bg-binary" className="!gap-2">

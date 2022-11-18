@@ -1,10 +1,10 @@
 {
-  "name": "OracleSwap",
-  "short_name": "OracleSwap",
+  "name": "Nexus",
+  "short_name": "Nexus",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#0D0415",
-  "background_color": "#0D0415",
+  "theme_color": "#021327",
+  "background_color": "#021327",
   "start_url": "/",
   "icons": [
     {

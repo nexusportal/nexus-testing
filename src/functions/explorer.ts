@@ -192,7 +192,7 @@ const chains: ChainObject = {
     builder: explorers.telos,
   },
   [ChainId.XRPL]: {
-    link: 'https://songbird-explorer.flare.network',
+    link: 'https://evm-sidechain.xrpl.org/',
     builder: explorers.blockscout,
   },
 }

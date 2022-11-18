@@ -11,7 +11,7 @@ import { useNetworkModalToggle } from 'app/state/application/hooks'
 import Link from 'next/link'
 import React from 'react'
 
-import LogoImage from '../../../public/songbird.png'
+import LogoImage from '../../../public/Mainnets.png'
 import Container from '../Container'
 // import Image from 'next/image'
 // import { ChainId } from '@sushiswap/core-sdk'
@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="flex flex-col col-span-2 gap-3 sm:col-span-1">
             {/* <div className="flex items-center justify-start gap-2">
               <div className="">
-                <Image src="https://app.sushi.com/images/logo.svg" alt="OracleSwap logo" width="28px" height="28px" />
+                <Image src="https://app.sushi.com/images/logo.svg" alt="Nexus logo" width="28px" height="28px" />
               </div>
               <Typography variant="h2" weight={700} className="tracking-[0.02em] scale-y-90 hover:text-high-emphesis">
-                OracleSwap
+                Nexus
               </Typography>
             </div> */}
             {/* <Typography variant="xs" className="text-low-emphesis">
@@ -41,10 +41,10 @@ const Footer = () => {
               us!`)}
             </Typography> */}
             <div className="flex items-center gap-4">
-              <a href="https://twitter.com/Oracle_Swap" target="_blank" rel="noreferrer">
+              <a href="https://twitter.com/Nexus" target="_blank" rel="noreferrer">
                 <TwitterIcon width={16} className="text-low-emphesis" />
               </a>
-              <a href="https://t.me/OracleSwapOffical" target="_blank" rel="noreferrer">
+              <a href="https://t.me/NexusOffical" target="_blank" rel="noreferrer">
                 <TelegramIcon width={16} className="text-low-emphesis" />
               </a>
               <a href="https://www.youtube.com/channel/UCIaaQbRoi5TV7epRLg8y3Mg" target="_blank" rel="noreferrer">
@@ -86,7 +86,7 @@ const Footer = () => {
                 </div>
               )}
 
-              <a href="https://docs.oracleswap.io/" target="_blank" rel="noreferrer">
+              <a href="https://docs.Nexus.io/" target="_blank" rel="noreferrer">
                 <span className="text-low-emphesis">{i18n._(t`Docs`)}</span>
               </a>
             </div>
@@ -126,13 +126,13 @@ const Footer = () => {
           </div> */}
           {/* <div className="flex flex-col gap-1 md:text-right lg:text-right"> */}
           {/* <Typography variant="xs" weight={700} className="mt-2.5 hover:text-high-emphesis">
-              <a href="https://help.oracleswap.io" target="_blank" rel="noreferrer">
+              <a href="https://help.Nexus.io" target="_blank" rel="noreferrer">
                 {i18n._(t`Help`)}
               </a>
             </Typography> */}
           {/* <a href="https://docs.sushi.com" target="_blank" rel="noreferrer">
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
-                {i18n._(t`What is OracleSwap?`)}
+                {i18n._(t`What is Nexus?`)}
               </Typography>
             </a>
             <a href="https://discord.gg/NVPXN4e" target="_blank" rel="noreferrer">
@@ -172,7 +172,7 @@ const Footer = () => {
             </a>
             <a href="https://docs.openmev.org" target="_blank" rel="noreferrer">
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
-                {i18n._(t`OracleSwap Relay`)}
+                {i18n._(t`Nexus Relay`)}
               </Typography>
             </a>
           </div> */}
