@@ -37,7 +37,6 @@ import Head from 'next/head'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import ReactGA from 'react-ga'
 
-import LogoImage from '../../../../public/icons/icon-152x152.png'
 import Widget from '../../../../public/holowidget.gif'
 
 import { fetchAPI } from '../../../lib/api'

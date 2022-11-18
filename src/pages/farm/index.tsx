@@ -1,10 +1,10 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import { ChainId, ZERO } from '@sushiswap/core-sdk'
-import Button from 'app/components/Button'
+// import Button from 'app/components/Button'
 // import Button from 'app/components/Button'
 import ExternalLink from 'app/components/ExternalLink'
-import QuestionHelper from 'app/components/QuestionHelper'
+// import QuestionHelper from 'app/components/QuestionHelper'
 // import QuestionHelper from 'app/components/QuestionHelper'
 import Search from 'app/components/Search'
 import Typography from 'app/components/Typography'
@@ -26,8 +26,8 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 
-import LogoImage from '../../../public/NEXUSGold.png'
-import NEX from '../../../public/NEXUS.png'
+// import LogoImage from '../../../public/NEXUSGold.png'
+// import NEX from '../../../public/NEXUS.png'
 
 const sendTx = async (txFunc: () => Promise<any>): Promise<boolean> => {
   let success = true

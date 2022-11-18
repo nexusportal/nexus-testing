@@ -2,7 +2,7 @@ import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CHAINLINK_NEXUS_ADDRESS, Currency, KASHI_ADDRESS } from '@sushiswap/core-sdk'
+import { CHAINLINK_ORACLE_ADDRESS, Currency, KASHI_ADDRESS } from '@sushiswap/core-sdk'
 import Button from 'app/components/Button'
 import Card from 'app/components/Card'
 import Container from 'app/components/Container'
@@ -139,7 +139,7 @@ export default function Create() {
       }
 
       // @ts-ignore TYPE NEEDS FIXING
-      if (!(chainId in CHAINLINK_NEXUS_ADDRESS)) {
+      if (!(chainId in CHAINLINK_ORACLE_ADDRESS)) {
         console.log('No chainlink oracle address')
         return
       }
@@ -151,7 +151,7 @@ export default function Create() {
       }
 
       // @ts-ignore TYPE NEEDS FIXING
-      const oracleAddress = CHAINLINK_NEXUS_ADDRESS[chainId]
+      const oracleAddress = CHAINLINK_ORACLE_ADDRESS[chainId]
 
       const kashiData = defaultAbiCoder.encode(
         ['address', 'address', 'address', 'bytes'],
