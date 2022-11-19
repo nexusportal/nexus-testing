@@ -1,4 +1,4 @@
-import { GlobeIcon, SwitchVerticalIcon, CollectionIcon,  CurrencyDollarIcon } from '@heroicons/react/outline'
+import { GlobeIcon, SwitchVerticalIcon,  CurrencyDollarIcon } from '@heroicons/react/outline'
 
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
