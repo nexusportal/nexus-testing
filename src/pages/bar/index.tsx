@@ -29,10 +29,10 @@ import { useTokenBalance } from 'app/state/wallet/hooks'
 import Head from 'next/head'
 // import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-
 import xNEXUSImage from '../../../public/NEXUS_SilverLogo.png'
 import NEXUSImage from '../../../public/NEXUSGold.png'
 import NetworkGuard from '../../guards/Network'
+import Widget from '../../../public/holowidget.gif'
 
 const INPUT_CHAR_LIMIT = 18
 
@@ -280,6 +280,13 @@ function Stake() {
           <div className="w-full h-full max-w-xl md:ml-6 md:block md:w-72">
             <div className="flex flex-col flex-grow w-full px-4 pt-4 pb-3 rounded bg-dark-900 md:px-5 md:pt-5 md:pb-7">
               <div className="flex flex-col flex-wrap">
+                
+                
+                <div className="flex flex-col items-center mb-4">
+                        {/* <div className="font-bold">1 SGB = $0.0645</div> */}
+                        <img src={Widget.src} className={'w-[100px] h-[100px]'} alt="Logo" />
+                </div>
+
                 {/* <img src={xNEXUSFImage.src} alt="xNEXUS sign" width="100%" height="100%" /> */}
                 <div className="flex flex-row mb-3">
                   <p className="text-lg font-bold md:text-2xl md:font-medium text-high-emphesis">
@@ -288,7 +295,7 @@ function Stake() {
 
                   <QuestionHelper
                     className="!bg-dark-800 !shadow-xl p-2"
-                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIST/BURN! The Nexus Diffuser receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the Nexus Reactor/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address.`}
+                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIFFUSE. The Nexus Diffuser receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the Nexus Reactor/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address.`}
                   />
                 </div>
 
@@ -312,7 +319,7 @@ function Stake() {
                   </p>
 
                   {oracleBalance?.equalTo(ZERO) && (
-                    <div className="mt-2 text-base text-red">{`Your oracle balance is zero, so you cannot dist/burn olp`}</div>
+                    <div className="mt-2 text-base text-red">{`Your NXS balance is zero, so you cannot DIFFUSE NLPs`}</div>
                   )}
 
                   <div className="flex justify-center mt-4">
@@ -322,10 +329,14 @@ function Stake() {
                       variant={'filled'}
                       disabled={pendingTx || !account || !enabled || oracleBalance?.equalTo(ZERO)}
                       onClick={lpConvertClick}
-                      className="inline-flex items-center px-8 font-bold text-white rounded-full cursor-pointer bg-gradient-to-r from-yellow to-red"
+                      className="inline-flex items-center px-8 font-bold text-white rounded cursor-pointer bg-gradient-to-r from-blue to-green"
                     >
-                      {`DIST/BURN`}
+                      {`DIFFUSE`}
                     </Button>
+
+
+
+
                   </div>
                 </div>
               </div>
@@ -416,16 +427,14 @@ function Stake() {
                 {/* input overlay: */}
                 <div className="relative w-full h-0 pointer-events-none bottom-14">
                   <div
-                    className={`flex justify-between items-center h-14 rounded px-3 md:px-5 ${
-                      inputError ? ' border border-red' : ''
-                    }`}
+                    className={`flex justify-between items-center h-14 rounded px-3 md:px-5 ${inputError ? ' border border-red' : ''
+                      }`}
                   >
                     <div className="flex items-center space-x-2">
                       {inputError && <ExclamationIcon color="red" width={20} />}
                       <p
-                        className={`text-sm md:text-lg font-bold whitespace-nowrap ${
-                          input ? 'text-high-emphesis' : 'text-secondary'
-                        }`}
+                        className={`text-sm md:text-lg font-bold whitespace-nowrap ${input ? 'text-high-emphesis' : 'text-secondary'
+                          }`}
                       >
                         {`${input ? input : '0'} ${activeTab === 0 ? '' : 'x'}NEXUS`}
                       </p>
@@ -445,7 +454,7 @@ function Stake() {
                   </div>
                 </div>
                 {(approvalState === ApprovalState.NOT_APPROVED || approvalState === ApprovalState.PENDING) &&
-                activeTab === 0 ? (
+                  activeTab === 0 ? (
                   <Button
                     className={`${buttonStyle} text-high-emphesis bg-blue hover:bg-opacity-90`}
                     disabled={approvalState === ApprovalState.PENDING}
@@ -463,10 +472,10 @@ function Stake() {
                       buttonDisabled
                         ? buttonStyleDisabled
                         : !walletConnected
-                        ? buttonStyleConnectWallet
-                        : insufficientFunds
-                        ? buttonStyleInsufficientFunds
-                        : buttonStyleEnabled
+                          ? buttonStyleConnectWallet
+                          : insufficientFunds
+                            ? buttonStyleInsufficientFunds
+                            : buttonStyleEnabled
                     }
                     onClick={handleClickButton}
                     disabled={buttonDisabled || inputError}
@@ -474,12 +483,12 @@ function Stake() {
                     {!walletConnected
                       ? i18n._(t`Connect Wallet`)
                       : !input
-                      ? i18n._(t`Enter Amount`)
-                      : insufficientFunds
-                      ? i18n._(t`Insufficient Balance`)
-                      : activeTab === 0
-                      ? i18n._(t`Confirm Staking`)
-                      : i18n._(t`Confirm Withdrawal`)}
+                        ? i18n._(t`Enter Amount`)
+                        : insufficientFunds
+                          ? i18n._(t`Insufficient Balance`)
+                          : activeTab === 0
+                            ? i18n._(t`Confirm Staking`)
+                            : i18n._(t`Confirm Withdrawal`)}
                   </button>
                 )}
               </div>

@@ -199,7 +199,7 @@ export default function Farm(): JSX.Element {
                     onClick={burnProClick}
                     className="inline-flex items-center px-8 font-bold text-white rounded-full cursor-pointer bg-gradient-to-r from-yellow to-red"
                   >
-                    {`DIST/BURN`}
+                    {`DIFFUSE`}
                   </Button>
                 </div>
               </div>
