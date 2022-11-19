@@ -3899,15 +3899,15 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
-      "name": "Wrapped Ripple",
+      "name": "Wrapped eXRP",
       "address": "0x201D19B6E57C018a863C4878284976e1AFA14335",
-      "symbol": "WXRP",
+      "symbol": "WEXRP",
       "decimals": 18,
       "chainId": 1440001,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
     },
     {
-      "name": "OracleFoundry",
+      "name": "Nexus Reactor",
       "address": "0x74Fed49d2B3301630B37c05bcDe498704Aed0be9",
       "symbol": "xNEXUS",
       "decimals": 18,

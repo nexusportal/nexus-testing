@@ -570,7 +570,7 @@ export default function useFarmRewards() {
       token1: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x74Fed49d2B3301630B37c05bcDe498704Aed0be9',
-        name: 'OracleFoundry',
+        name: 'Nexus Reactor',
         symbol: 'xNEXUS',
         totalSupply: 1680,
       },

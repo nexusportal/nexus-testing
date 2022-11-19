@@ -3,7 +3,7 @@
 import { Head, Html, Main, NextScript } from 'next/document'
 
 const APP_NAME = 'Nexus'
-const APP_DESCRIPTION = 'Oracle Swap | The premiere Decentralized Exchange on the Songbird Network.'
+const APP_DESCRIPTION = 'NEXUS | The first DEX on the XRP EVM Sidechain.'
 
 export default function Document() {
   return (

@@ -357,7 +357,7 @@ const Swap = ({ banners }) => {
   return (
     <>
       <Head>
-        <title>Oracle Swap | DEX</title>
+        <title>NEXUS | DEX</title>
         <meta key="description" name="description" content="Nexus AMM" />
         <meta key="twitter:description" name="twitter:description" content="Nexus AMM" />
         <meta key="og:description" property="og:description" content="Nexus AMM" />

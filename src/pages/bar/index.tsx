@@ -220,7 +220,7 @@ function Stake() {
   return (
     <Container id="bar-page" className="py-4 md:py-8 lg:py-12" maxWidth="full">
       <Head>
-        <title key="title">Oracle Swap | Stake</title>
+        <title key="title">NEXUS | Stake</title>
         <meta
           key="description"
           name="description"
@@ -261,7 +261,7 @@ function Stake() {
             </div>
             <div className="max-w-lg pr-3 mb-2 text-sm leading-5 text-gray-500 md:text-base md:mb-4 md:pr-0">
               {i18n._(
-                t`For every swap on the exchange, 0.035% of the swap fees are distributed as NEXUS proportional to your share of the OracleFoundry. When your NEXUS is staked into the OracleFoundry, you receive xNEXUS. Your xNEXUS is continuously compounding, when you unstake you will receive all the originally deposited NEXUS and any additional from fees`
+                t`For every swap on the exchange, 0.035% of the swap fees are distributed as NEXUS proportional to your share of the Nexus Reactor. When your NEXUS is staked into the Nexus Reactor, you receive xNEXUS. Your xNEXUS is continuously compounding, when you unstake you will receive all the originally deposited NEXUS and any additional from fees`
               )}
             </div>
             {/* <div className="flex">
@@ -288,7 +288,7 @@ function Stake() {
 
                   <QuestionHelper
                     className="!bg-dark-800 !shadow-xl p-2"
-                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIST/BURN! The OracleDistributor receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the OracleFoundry/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address. If the OracleTreasury address is zero then the 10% is sent to Prophet Sarifice.`}
+                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIST/BURN! The OracleDistributor receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the Nexus Reactor/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address. If the OracleTreasury address is zero then the 10% is sent to Prophet Sarifice.`}
                   />
                 </div>
 

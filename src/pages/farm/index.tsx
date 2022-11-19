@@ -125,7 +125,7 @@ export default function Farm(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Oracle Swap | Farm</title>
+        <title>NEXUS | Farm</title>
         <meta key="description" name="description" content="Nexus AMM" />
         <meta key="twitter:description" name="twitter:description" content="Nexus AMM" />
         <meta key="og:description" property="og:description" content="Nexus AMM" />
