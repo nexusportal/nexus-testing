@@ -36,7 +36,7 @@ const Desktop: FC = () => {
       <header className="fixed z-20 hidden w-full lg:block" style={{ height: HEADER_HEIGHT }}>
         <nav className={NAV_CLASS}>
           <Container maxWidth="7xl" className="mx-auto">
-            {showUseDexWarning && (
+            {/* {showUseDexWarning && (
               <div className="py-2 px-4 text-[1rem] text-high-emphesis bg-[#2cbca5] relative">
                 <div className="absolute right-1 top-1">
                   <div
@@ -50,7 +50,7 @@ const Desktop: FC = () => {
                   {`Welcome to the NEXUS DEX on the XRPL EVM Sidechain Dev Net!`}
                 </Typography>
               </div>
-            )}
+            )} */}
 
             <div className="flex items-center justify-between gap-4 px-6">
               <div className="flex gap-4">

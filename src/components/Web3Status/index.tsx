@@ -134,8 +134,8 @@ function Web3StatusInner() {
               size={20}
               address={account}
               defaultComponent={
-                <img src={PROFILE.src} width={20} height={20} alt="Nexus Chef" />
-                // <Image src="https://app.sushi.com/images/chef.svg" alt="Nexus Chef" width={20} height={20} />
+                <img src={PROFILE.src} width={20} height={20} alt="OracleSwap Chef" />
+                // <Image src="https://app.sushi.com/images/chef.svg" alt="OracleSwap Chef" width={20} height={20} />
               }
               style={{ borderRadius: 5 }}
               provider={library}
@@ -149,7 +149,7 @@ function Web3StatusInner() {
     )
   } else {
     return (
-      <Web3Connect className="!bg-dark-900 bg-gradient-to-r from-pink/80 hover:from-pink to-purple/80 hover:to-purple text-white h-[38px]" />
+      <Web3Connect className="!bg-dark-900 bg-gradient-to-r from-blue/80 hover:from-blue to-green/80 hover:to-green text-white h-[38px]" />
     )
   }
 }

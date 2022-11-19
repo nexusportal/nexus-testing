@@ -283,12 +283,12 @@ function Stake() {
                 {/* <img src={xNEXUSFImage.src} alt="xNEXUS sign" width="100%" height="100%" /> */}
                 <div className="flex flex-row mb-3">
                   <p className="text-lg font-bold md:text-2xl md:font-medium text-high-emphesis">
-                    {i18n._(t`Distributor`)}
+                    {i18n._(t`NEXUS Diffuser`)}
                   </p>
 
                   <QuestionHelper
                     className="!bg-dark-800 !shadow-xl p-2"
-                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIST/BURN! The OracleDistributor receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the Nexus Reactor/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address. If the OracleTreasury address is zero then the 10% is sent to Prophet Sarifice.`}
+                    text={`BE AWARE OF GAS SPENDING WHEN CALLING THE DIST/BURN! The Nexus Diffuser receives DEX swap fees from the feeToo address of the NexusFactory Contract. The fees are in the form of OLP Tokens. NEXUS Token holders can publicly call the Distribute function to convert the OLP Tokens to NEXUS and distribute them. 70% of the NEXUS is sent to the Nexus Reactor/Stakers, 10% is sent to the treasury, 10% is sent to Prophet Sacrifice, and 10% is sent to the dead address.`}
                   />
                 </div>
 
@@ -298,17 +298,17 @@ function Stake() {
                     <span className={classNames(enabled ? 'text-green' : 'text-red')}>{enabled ? 'Yes' : 'No'}</span>
                   </p>
                   <p>
-                    <span>&#127789; </span> Oracle To Stakers: <span>{foundry?.toSignificant(6)}</span>
+                    <span>&#9883;; </span> NXS To Reactor: <span>{foundry?.toSignificant(6)}</span>
                     {/* &#127835; */}
                   </p>
                   <p>
-                    <span>&#128293;</span> Oracle Burned: <span>{burned?.toSignificant(6)}</span>
+                    <span>&#128293;</span> NXS Burned: <span>{burned?.toSignificant(6)}</span>
                   </p>
+                  {/* <p>
+                    <span>&#128293;</span> NXS To Sacrifice: <span>{prophet?.toSignificant(6)}</span>
+                  </p> */}
                   <p>
-                    <span>&#128293;</span> Oracle To Sacrifice: <span>{prophet?.toSignificant(6)}</span>
-                  </p>
-                  <p>
-                    <span>&#127974;</span> Oracle To Treasury: <span>{treasury?.toSignificant(6)}</span>
+                    <span>&#127974;</span> NXS To Treasury: <span>{treasury?.toSignificant(6)}</span>
                   </p>
 
                   {oracleBalance?.equalTo(ZERO) && (

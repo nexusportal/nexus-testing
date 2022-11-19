@@ -107,18 +107,18 @@ const useMenu: UseMenu = () => {
     let earnMenu: MenuItem = {
       key: 'earn',
       title: i18n._(t`Learn`),
-      link: 'https://earn.Nexus.io/',
+      link: 'https://learn.Nexus.io/',
       external: true,
       icon: <CurrencyDollarIcon width={20} />,
     }
 
-    let nftMenu: MenuItem = {
-      key: 'nft',
-      title: i18n._(t`NFT`),
-      link: 'https://comingsoon.Nexus.io/',
-      external: true,
-      icon: <CollectionIcon width={20} />,
-    }
+    // let nftMenu: MenuItem = {
+    //   key: 'nft',
+    //   title: i18n._(t`NFT`),
+    //   link: 'https://comingsoon.Nexus.io/',
+    //   external: true,
+    //   icon: <CollectionIcon width={20} />,
+    // }
 
 
     const exploreMenu: MenuItemLeaf[] = []
@@ -188,7 +188,7 @@ const useMenu: UseMenu = () => {
       mainItems.push(farmItems)
     }
 
-    mainItems.push(nftMenu)
+    // mainItems.push(nftMenu)
     mainItems.push(earnMenu)
     // if (featureEnabled(Feature.KASHI, chainId)) {
     //   mainItems.push({

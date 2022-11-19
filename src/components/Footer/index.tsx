@@ -57,7 +57,7 @@ const Footer = () => {
               <Link href="/portfolio" passHref={true}>
                 <a className="text-low-emphesis ">
                   {/*@ts-ignore*/}
-                  {i18n._(t`Portfolio`)}
+                  {i18n._(t`Your Wallet`)}
                 </a>
               </Link>
 
