@@ -47,10 +47,10 @@ const Footer = () => {
               <a href="https://t.me/NexusOffical" target="_blank" rel="noreferrer">
                 <TelegramIcon width={16} className="text-low-emphesis" />
               </a>
-              <a href="https://www.youtube.com/channel/UCIaaQbRoi5TV7epRLg8y3Mg" target="_blank" rel="noreferrer">
+              <a href="https://www.youtube.com/channel/" target="_blank" rel="noreferrer">
                 <YoutubeIcon width={16} className="text-low-emphesis" />
               </a>
-              <a href="https://discord.gg/WbDnWcRBxw" target="_blank" rel="noreferrer">
+              <a href="https://discord.gg/" target="_blank" rel="noreferrer">
                 <DiscordIcon width={16} className="text-low-emphesis" />
               </a>
 

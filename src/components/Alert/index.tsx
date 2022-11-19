@@ -8,7 +8,7 @@ import Typography from '../Typography'
 const TYPE = {
   information: {
     text: 'text-high-emphesis',
-    color: 'bg-purple bg-opacity-20 text-high-emphesis',
+    color: 'bg-blue bg-opacity-20 text-high-emphesis',
     icon: (
       <svg
         className="h-5 w-5 text-purple"
