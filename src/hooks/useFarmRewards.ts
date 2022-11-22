@@ -440,8 +440,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
-        name: 'Wrapped SGB',
-        symbol: 'WSGB',
+        name: 'Wrapped eXRP',
+        symbol: 'WEXRP',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
@@ -472,8 +472,8 @@ export default function useFarmRewards() {
       token0: {
         derivedETH: 0.0003068283960261003490764609134664169,
         id: '0x201D19B6E57C018a863C4878284976e1AFA14335',
-        name: 'Wrapped SGB',
-        symbol: 'WSGB',
+        name: 'Wrapped eXRP',
+        symbol: 'WEXRP',
         totalSupply: 1680,
       },
       token0Price: 0.749748,
