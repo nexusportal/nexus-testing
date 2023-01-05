@@ -1,4 +1,3 @@
-import '../bootstrap'
 import '../styles/index.css'
 
 import { i18n } from '@lingui/core'
